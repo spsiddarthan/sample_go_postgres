@@ -12,6 +12,7 @@ env:
   - CI_REPORT=shippable/testresults/junit.xml
 
 before_install:
+  - go version
   - go get github.com/lib/pq
   - go get github.com/t-yuki/gocover-cobertura
   - go get github.com/onsi/gomega
