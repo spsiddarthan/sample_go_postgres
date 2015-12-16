@@ -2,7 +2,7 @@ language: go
 build_image: drydock/u12golpls:tip
 
 go:
-  - tip
+  - 1.5
 
 # Addons used by app
 addons:
