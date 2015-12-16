@@ -1,4 +1,5 @@
 language: go
+build_image: siddarthan/u12golpls
 
 go:
   - 1.2
