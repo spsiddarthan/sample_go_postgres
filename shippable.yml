@@ -1,5 +1,4 @@
 language: go
-build_image: drydock/u12golpls:tip
 
 go:
   - 1.3
