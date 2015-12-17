@@ -1,11 +1,12 @@
 language: go
+build_image : drydock/u12golpls:tip
 
 go:
   - 1.2
 
 # Addons used by app
 addons:
-  postgresql: "9.3"
+  postgresql: "9.4"
 
 env:
   - CI_REPORT=shippable/testresults/junit.xml
