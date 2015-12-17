@@ -3,7 +3,7 @@ build_image: drydock/u14golpls:tip
 
 
 go:
-  - 1.2
+  - 1.5
 
 # Addons used by app
 addons:
