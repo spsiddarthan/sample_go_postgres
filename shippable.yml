@@ -1,5 +1,5 @@
 language: go
-build_image: shippableimages/ubuntu1204_go
+build_image: shippableimages/ubuntu1404_go
 
 go:
   - 1.6
