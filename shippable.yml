@@ -2,7 +2,7 @@ language: go
 build_image: shippableimages/ubuntu1404_go
 
 go:
-  - 1.6
+  - 1.2
 
 # Addons used by app
 addons:
